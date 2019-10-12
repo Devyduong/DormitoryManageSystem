@@ -1,5 +1,6 @@
 ﻿using DormitoryManageSystem.Common;
 using DormitoryManageSystem.HomeFleet;
+using DormitoryManageSystem.Room;
 using DormitoryManageSystem.Student;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,8 @@ namespace DormitoryManageSystem
         public FmDashboard()
         {
             InitializeComponent();
+            this.ControlBox = false;
+            iconLoading.Hide();
         }
 
         private void btnSetupGeneral_MouseHover(object sender, EventArgs e)
@@ -32,21 +35,25 @@ namespace DormitoryManageSystem
 
         private void btnRoomManage_Click(object sender, EventArgs e)
         {
-
+            FmRoomManage roomManage = new FmRoomManage();
+            roomManage.Show();
+            this.Close();
         }
 
         private void btnHomeFleet_Click(object sender, EventArgs e)
         {
+            iconLoading.Show();
             FmHomeFleetManage fmHomeFleetManage = new FmHomeFleetManage();
             fmHomeFleetManage.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void btnStudenManage_Click(object sender, EventArgs e)
         {
+            iconLoading.Show();
             StudentManage studentManage = new StudentManage();
             studentManage.Show();
-            Hide();
+            this.Close();
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -56,6 +63,10 @@ namespace DormitoryManageSystem
             {
                 Application.Exit();
             }
+        }
+
+        private void FmDashboard_FormClosed(object sender, FormClosedEventArgs e)
+        {
         }
     }
 }

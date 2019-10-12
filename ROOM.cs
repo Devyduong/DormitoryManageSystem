@@ -17,6 +17,9 @@ namespace DormitoryManageSystem
 
         public int ROOMID { get; set; }
 
+        [StringLength(100)]
+        public string ROOMNAME { get; set; }
+
         public int? HOMEFLEET { get; set; }
 
         public int? FORGENDER { get; set; }

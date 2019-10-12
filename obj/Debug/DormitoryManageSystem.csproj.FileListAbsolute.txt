@@ -18,3 +18,26 @@ C:\Users\T440S\source\repos\DormitoryManageSystem\obj\Debug\DormitoryManageSyste
 C:\Users\T440S\source\repos\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Student.FmAddStudent.resources
 C:\Users\T440S\source\repos\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Student.FmEditStudent.resources
 C:\Users\T440S\source\repos\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Student.FmStudentDetail.resources
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\bin\Debug\DormitoryManageSystem.exe.config
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\bin\Debug\DormitoryManageSystem.exe
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\bin\Debug\DormitoryManageSystem.pdb
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\bin\Debug\EntityFramework.dll
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\bin\Debug\EntityFramework.xml
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.csprojAssemblyReference.cache
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.FmDashboard.resources
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.FormLogin.resources
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.HomeFleet.FmHomeFleetManage.resources
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Properties.Resources.resources
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Student.FmAddStudent.resources
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Student.FmEditStudent.resources
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Student.FmStudentDetail.resources
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Student.StudentManage.resources
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.csproj.GenerateResource.cache
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.csproj.CopyComplete
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.exe
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.pdb
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Room.FmRoomManage.resources
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Room.FmAddRoom.resources
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Room.FmEditRoom.resources

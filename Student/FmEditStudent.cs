@@ -43,7 +43,7 @@ namespace DormitoryManageSystem.Student
                 }
 
 
-                // thêm thông tin sinh viên mới vào csdl
+                // thêm thông tin sinh viên sau chỉnh sửa vào csdl
                 STUDENT student = new STUDENT();
                 student.STUDENTID = txtStudentId.Text;
                 student.STUDENTNAME = txtFullName.Text;
