@@ -30,5 +30,8 @@ namespace DormitoryManageSystem.Common
             rs = rs + @"Images\";
             return rs;
         }
+
+        public static string CURRENT_USER_ID { get; set; } = "admin";
+        public static string CURRENT_USER_FULLNAME { get; set; } = "Administrator";
     }
 }

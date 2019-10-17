@@ -41,3 +41,6 @@ C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\D
 C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Room.FmRoomManage.resources
 C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Room.FmAddRoom.resources
 C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Room.FmEditRoom.resources
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Rent.FmRentManage.resources
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Rent.FmAddRent.resources
+C:\Users\T440S\Documents\Visual Studio 2019\Projects\DormitoryManageSystem\obj\Debug\DormitoryManageSystem.Rent.FmEditRent.resources

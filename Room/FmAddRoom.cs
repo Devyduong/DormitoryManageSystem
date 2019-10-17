@@ -38,6 +38,11 @@ namespace DormitoryManageSystem.Room
                 room.STATUSS = 1;
 
                 db.ROOMs.Add(room);
+
+                HOMEFLEET homefleet = db.HOMEFLEETs.Where(h => h.HFID == hf.HFID).FirstOrDefault();
+                homefleet.NUMBEROFROOM = homefleet.NUMBEROFROOM + 1;
+
+                db.Entry(homefleet).State = System.Data.Entity.EntityState.Modified;
                 db.SaveChanges();
 
                 MessageBox.Show("Thêm thông tin phòng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);

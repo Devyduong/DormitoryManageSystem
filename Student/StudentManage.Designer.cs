@@ -173,7 +173,7 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgAllStudent.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgAllStudent.GridColor = System.Drawing.SystemColors.Control;
-            this.dgAllStudent.Location = new System.Drawing.Point(12, 43);
+            this.dgAllStudent.Location = new System.Drawing.Point(9, 43);
             this.dgAllStudent.Name = "dgAllStudent";
             this.dgAllStudent.ReadOnly = true;
             this.dgAllStudent.Size = new System.Drawing.Size(1248, 583);
@@ -244,6 +244,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ControlBox = false;
             this.Controls.Add(this.dgAllStudent);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pnTool);

@@ -47,7 +47,6 @@ namespace DormitoryManageSystem.HomeFleet
                 dgAllHF.Rows[index].Cells[2].Value = hf.NUMBEROFROOM;
 
                 tbHFName.Text = "";
-                tbRoomNumber.Text = "";
                 txtHFID.Text = "";
 
             }
@@ -94,7 +93,7 @@ namespace DormitoryManageSystem.HomeFleet
 
                     tbHFName.Text = "";
                     tbRoomNumber.Text = "";
-                    txtHFID.Text = "";
+                    txtHFID.Text = "0";
                 }
             }
             catch (Exception ex)

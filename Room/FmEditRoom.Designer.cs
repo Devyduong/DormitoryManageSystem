@@ -55,13 +55,14 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.btnSave);
             this.panel2.Controls.Add(this.tbIncluded);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(656, 51);
+            this.panel2.Location = new System.Drawing.Point(654, 46);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(605, 580);
+            this.panel2.Size = new System.Drawing.Size(605, 582);
             this.panel2.TabIndex = 20;
             // 
             // btnSave
@@ -96,6 +97,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.lbInformation);
             this.panel1.Controls.Add(this.label8);
@@ -109,9 +111,9 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.tbRoomName);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(4, 51);
+            this.panel1.Location = new System.Drawing.Point(4, 46);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(646, 580);
+            this.panel1.Size = new System.Drawing.Size(646, 583);
             this.panel1.TabIndex = 21;
             // 
             // lbInformation
@@ -177,6 +179,7 @@
             // 
             // tbBedEmpty
             // 
+            this.tbBedEmpty.Enabled = false;
             this.tbBedEmpty.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbBedEmpty.Location = new System.Drawing.Point(216, 183);
             this.tbBedEmpty.Name = "tbBedEmpty";
@@ -231,8 +234,9 @@
             // 
             // pnTool
             // 
+            this.pnTool.BackColor = System.Drawing.Color.White;
             this.pnTool.Controls.Add(this.btnExit);
-            this.pnTool.Location = new System.Drawing.Point(4, 637);
+            this.pnTool.Location = new System.Drawing.Point(2, 635);
             this.pnTool.Name = "pnTool";
             this.pnTool.Size = new System.Drawing.Size(1260, 44);
             this.pnTool.TabIndex = 19;
@@ -267,7 +271,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ControlBox = false;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnTool);

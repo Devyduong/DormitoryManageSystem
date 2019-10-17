@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmEditStudent));
             this.lbImageName = new System.Windows.Forms.Label();
             this.btnChooseAvatar = new System.Windows.Forms.Button();
             this.lbInformation = new System.Windows.Forms.Label();
@@ -91,7 +92,7 @@
             this.btnChooseAvatar.Location = new System.Drawing.Point(942, 586);
             this.btnChooseAvatar.Name = "btnChooseAvatar";
             this.btnChooseAvatar.Size = new System.Drawing.Size(144, 38);
-            this.btnChooseAvatar.TabIndex = 20;
+            this.btnChooseAvatar.TabIndex = 17;
             this.btnChooseAvatar.Text = "Chọn ảnh";
             this.btnChooseAvatar.UseVisualStyleBackColor = true;
             this.btnChooseAvatar.Click += new System.EventHandler(this.btnChooseAvatar_Click);
@@ -113,7 +114,7 @@
             this.btnClose.Location = new System.Drawing.Point(1107, 630);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(144, 38);
-            this.btnClose.TabIndex = 18;
+            this.btnClose.TabIndex = 19;
             this.btnClose.Text = "Đóng";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -124,13 +125,15 @@
             this.btnSave.Location = new System.Drawing.Point(1107, 586);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(144, 38);
-            this.btnSave.TabIndex = 16;
+            this.btnSave.TabIndex = 18;
             this.btnSave.Text = "Lưu thông tin";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // avatarBox
             // 
+            this.avatarBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("avatarBox.BackgroundImage")));
+            this.avatarBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.avatarBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.avatarBox.InitialImage = null;
             this.avatarBox.Location = new System.Drawing.Point(650, 305);
@@ -160,7 +163,7 @@
             this.txtYear.Location = new System.Drawing.Point(157, 142);
             this.txtYear.Name = "txtYear";
             this.txtYear.Size = new System.Drawing.Size(444, 29);
-            this.txtYear.TabIndex = 7;
+            this.txtYear.TabIndex = 16;
             // 
             // label16
             // 
@@ -178,7 +181,7 @@
             this.txtDepartment.Location = new System.Drawing.Point(157, 93);
             this.txtDepartment.Name = "txtDepartment";
             this.txtDepartment.Size = new System.Drawing.Size(444, 29);
-            this.txtDepartment.TabIndex = 5;
+            this.txtDepartment.TabIndex = 15;
             // 
             // label15
             // 
@@ -196,7 +199,7 @@
             this.txtSchool.Location = new System.Drawing.Point(157, 39);
             this.txtSchool.Name = "txtSchool";
             this.txtSchool.Size = new System.Drawing.Size(444, 29);
-            this.txtSchool.TabIndex = 3;
+            this.txtSchool.TabIndex = 14;
             // 
             // label13
             // 
@@ -248,7 +251,7 @@
             this.txtEmail.Location = new System.Drawing.Point(156, 553);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(459, 29);
-            this.txtEmail.TabIndex = 35;
+            this.txtEmail.TabIndex = 13;
             // 
             // label17
             // 
@@ -266,7 +269,7 @@
             this.txtFolk.Location = new System.Drawing.Point(156, 213);
             this.txtFolk.Name = "txtFolk";
             this.txtFolk.Size = new System.Drawing.Size(459, 29);
-            this.txtFolk.TabIndex = 33;
+            this.txtFolk.TabIndex = 6;
             // 
             // label14
             // 
@@ -284,7 +287,7 @@
             this.txtPhoneNumber.Location = new System.Drawing.Point(156, 509);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.Size = new System.Drawing.Size(459, 29);
-            this.txtPhoneNumber.TabIndex = 31;
+            this.txtPhoneNumber.TabIndex = 12;
             // 
             // txtAddress
             // 
@@ -292,7 +295,7 @@
             this.txtAddress.Location = new System.Drawing.Point(156, 261);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(459, 29);
-            this.txtAddress.TabIndex = 30;
+            this.txtAddress.TabIndex = 7;
             // 
             // txtNation
             // 
@@ -300,7 +303,7 @@
             this.txtNation.Location = new System.Drawing.Point(156, 460);
             this.txtNation.Name = "txtNation";
             this.txtNation.Size = new System.Drawing.Size(459, 29);
-            this.txtNation.TabIndex = 29;
+            this.txtNation.TabIndex = 11;
             // 
             // txtReligion
             // 
@@ -308,7 +311,7 @@
             this.txtReligion.Location = new System.Drawing.Point(156, 168);
             this.txtReligion.Name = "txtReligion";
             this.txtReligion.Size = new System.Drawing.Size(459, 29);
-            this.txtReligion.TabIndex = 28;
+            this.txtReligion.TabIndex = 5;
             // 
             // txtIssuedBy
             // 
@@ -316,7 +319,7 @@
             this.txtIssuedBy.Location = new System.Drawing.Point(156, 411);
             this.txtIssuedBy.Name = "txtIssuedBy";
             this.txtIssuedBy.Size = new System.Drawing.Size(459, 29);
-            this.txtIssuedBy.TabIndex = 27;
+            this.txtIssuedBy.TabIndex = 10;
             // 
             // dateCMND
             // 
@@ -324,7 +327,7 @@
             this.dateCMND.Location = new System.Drawing.Point(156, 364);
             this.dateCMND.Name = "dateCMND";
             this.dateCMND.Size = new System.Drawing.Size(459, 26);
-            this.dateCMND.TabIndex = 26;
+            this.dateCMND.TabIndex = 9;
             // 
             // label3
             // 
@@ -342,7 +345,7 @@
             this.txtFullName.Location = new System.Drawing.Point(156, 68);
             this.txtFullName.Name = "txtFullName";
             this.txtFullName.Size = new System.Drawing.Size(459, 29);
-            this.txtFullName.TabIndex = 24;
+            this.txtFullName.TabIndex = 2;
             // 
             // txtCMND
             // 
@@ -350,7 +353,7 @@
             this.txtCMND.Location = new System.Drawing.Point(156, 312);
             this.txtCMND.Name = "txtCMND";
             this.txtCMND.Size = new System.Drawing.Size(459, 29);
-            this.txtCMND.TabIndex = 23;
+            this.txtCMND.TabIndex = 8;
             // 
             // label4
             // 
@@ -409,7 +412,7 @@
             this.cbbGender.Location = new System.Drawing.Point(505, 117);
             this.cbbGender.Name = "cbbGender";
             this.cbbGender.Size = new System.Drawing.Size(110, 32);
-            this.cbbGender.TabIndex = 13;
+            this.cbbGender.TabIndex = 4;
             // 
             // label8
             // 
@@ -427,7 +430,7 @@
             this.dob.Location = new System.Drawing.Point(156, 120);
             this.dob.Name = "dob";
             this.dob.Size = new System.Drawing.Size(256, 26);
-            this.dob.TabIndex = 11;
+            this.dob.TabIndex = 3;
             // 
             // label7
             // 
@@ -495,7 +498,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ControlBox = false;
             this.Controls.Add(this.lbImageName);
             this.Controls.Add(this.btnChooseAvatar);
             this.Controls.Add(this.lbInformation);

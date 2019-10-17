@@ -60,7 +60,10 @@ namespace DormitoryManageSystem.Student
                 student.STUDYAT = txtSchool.Text;
                 student.STUDENTYEAR = int.Parse(txtYear.Text);
                 student.DEPARTMENT = txtDepartment.Text;
-                student.PHOTO = lbImageName.Text;
+                if (lbImageName.Text == "")
+                    student.PHOTO = "user_icon.png";
+                else
+                    student.PHOTO = lbImageName.Text;
                 student.STATUSS = 1;
                 student.EMAIL = txtEmail.Text;
 
