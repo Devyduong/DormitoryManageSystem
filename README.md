@@ -1,1 +1,1 @@
-# DormitoryManageSystem
+# Dormitory Management System
